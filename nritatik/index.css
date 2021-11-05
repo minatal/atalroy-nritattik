@@ -1,0 +1,322 @@
+html{
+  scroll-behavior: smooth;
+}
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  
+  }
+
+ .navbar{
+     background: rgb(0, 119, 0);
+  
+ }
+ 
+#carouselMy{
+  background:linear-gradient(to right , rgb(117, 6, 2), rgb(2, 48, 1));
+  border-radius: 10px;
+
+}
+#mainProject{
+  transition: 0.3s;
+}
+#mainProject:hover{
+  transform: scale(1.35);
+}
+#img1111{
+transition: 0.3s;
+}
+#img1111:hover{
+  transform: scale(1.4);
+ 
+}
+#description-all{
+  background: rgba(63, 37, 80, 0.959);
+  color: white;
+}
+#all-button{
+  transition: all 0.4s ease;
+}
+#all-button:hover{
+  transform: scale(1.2);
+}
+
+.img{
+  transition: 0.3s;
+}
+.img:hover{
+  transform: scale(1.5);
+}
+#faciImg{
+  transition: 0.3s;
+}
+#faciImg:hover{
+  transform: scale(1.04);
+}
+.hr-style{
+  margin: auto;
+  border: 5px dotted white;
+  border-bottom: none;
+  width: 100px;
+ border-color: rgb(11, 219, 174);
+
+}
+
+.navbar-nav h1{
+  color:rgb(240, 239, 248)
+}
+#anothreSection{
+  background: rgb(229, 229, 230);
+}
+.colorBest{
+  color: rgba(250, 0, 217, 0.986);
+
+}
+#button2{
+  box-shadow: 1px 3px 2px black;
+  transition: all 0.4s ease;
+}
+#button2:hover{
+  background: hotpink;
+  transform: scale(1.1);
+}
+.feedback-img{
+  width: 550px;
+  margin: auto;
+  height: 350px;
+  border: 3px solid #db0557;
+  border-radius: 5px;
+
+}
+.carousel-item:hover{
+  transform: scale(1.2);
+}
+.carousel-item p{
+  font-size: 1.3rem;
+  color: rgb(250, 226, 12);
+}
+.carousel-indicators ol li{
+margin-top: 50px;
+}
+.carousel-item h6{
+ margin-bottom: 25px;
+  font-size: 1rem;
+  color: rgb(250, 226, 12);
+}
+#faciImg{
+  width: 200px;
+  
+}
+.map{
+  min-width:100%;
+  height: 300px;
+}
+.border{
+    transition: 0.3s;
+    border-color: red;
+}
+.border:hover{
+  transform: scale(1.05);
+}
+#ploCation table tr{
+  transition: 0.3s;
+}
+#ploCation table tr:hover{
+  background: orange;
+}
+.card{
+  transition: 0.3s;
+ 
+}
+.card:hover{
+  transform: scale(1.05);
+  box-shadow: 5px 10px 8px black;
+}
+
+#videoSection{
+  position: relative;
+  background: url(images/rootproject.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 40vh;
+}
+.dark-overlay{
+  position: absolute;
+  background:rgba(5, 6, 7, 0.3);
+  max-width: 100%;
+  height:40vh;
+}
+.youtube-video{
+  width: 100px;
+  text-align: center;
+  background: rgb(19, 12, 12);
+  position: absolute;
+ margin-left: 200px;
+ margin-top: 100px;
+ font-size: 1rem;
+ border-radius: 5px;
+}
+.youtube-video h6{
+  margin-top: 3px;
+ margin-bottom: 0;
+  color: white;
+  font-size: 0.9rem;
+}
+.youtube-button{
+  color: tomato;
+  margin: 1rem;
+}
+#formControl{
+ max-width: 500px;
+}
+#especialImg{
+
+height: 250px;
+}
+.form-width{
+  width: 700px;
+}
+.style{
+  width: 110px;
+   height: 100px
+}
+.style2{
+  width: 150px; 
+  height: 150px;
+}
+#WatCh3{
+ margin: auto;
+  width: 250px;
+  border: 2px solid red;
+ box-shadow: 5px -7px 1px rgba(214, 35, 8, 0.842);
+ transition: all 0.4s ease;
+}
+#WatCh3:hover{
+  transform: scale(1.2);
+}
+#time{
+  font-size: 0.7rem;
+}
+
+@media (max-width:992px) {
+  .img:hover{
+    transform: scale(2.6);
+  }
+  #especialImg{
+   height: 210px;
+    }
+  .feedback-img{
+  max-width: 500px;
+  max-height: 100%;
+  margin: auto;
+  border: 3px solid rgb(219, 5, 87);
+  border-radius: 5px;
+
+}
+#mainProject:hover{
+  transform: scale(1.1);
+}
+.carousel-item:hover{
+  transform: scale(1.4);
+}
+.form-width{
+  width: 500px;
+}
+
+}
+
+
+@media (max-width:768px) {
+  .img:hover{
+    transform: scale(1.5);
+  }
+  .feedback-img{
+  width: 380px;
+  margin: auto;
+  border: 3px solid rgb(219, 5, 87);
+  border-radius: 5px;
+
+}
+#mainProject{
+font-size: 0.5rem;
+}
+#mainProject:hover{
+  transform: scale(1.2);
+  margin-left:20px;
+}
+.carousel-item:hover{
+  transform: scale(1.1);
+}
+.map{
+  max-width:400px ;
+  
+}
+#proTable tr, th, td{
+  font-size: 1rem;
+}
+.form-width{
+  width: 350px;
+}
+.style{
+  width: 102px;
+   height: 80px
+}
+.style2{
+  width: 135px;
+  height: 100px;
+}
+
+}
+
+@media (max-width:460px) {
+  .img:hover{
+    transform: scale(1.5);
+  }
+  .feedback-img{
+  width: 240px;
+  height: 200px;
+  margin: auto;
+  border: 3px solid rgb(219, 5, 87);
+  border-radius: 5px;
+
+}
+#mainProject:hover{
+  transform: scale(1.19);
+}
+#HeadOne{
+  font-weight: lighter;
+  font-size: x-small;
+}
+
+.carousel-item:hover{
+  transform: scale(0.8);
+}
+#proTable tr,th,td{
+  font-size: 0.5rem;
+}
+.border:hover{
+  transform: scale(1.05);
+}
+.map{
+  width: 230px;
+}
+}
+@media (max-width:300px) {
+  .feedback-img{
+  width: 150px;
+  margin: auto;
+  border: 3px solid rgb(219, 5, 87);
+  border-radius: 5px;
+
+}
+.carousel-item:hover{
+  transform: scale(0.8);
+}
+}
+.img{
+  max-width: 130px;
+  height: 130px;
+}
